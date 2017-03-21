@@ -15,17 +15,15 @@ public class basckara {
     public static void main(String[] args) {
         
         Scanner rapadura = new Scanner (System.in);
-        // Entradas
+        
         System.out.println("n1: ");
-        double x1 = rapadura.nextDouble();
+        double x1 = Double.parseDouble(rapadura.nextLine());
         System.out.println("n2: ");
-        double x2 = rapadura.nextDouble();
+        double x2 = Double.parseDouble(rapadura.nextLine());;
         System.out.println("c: ");
-        double c = rapadura.nextDouble();
+        double c = Double.parseDouble(rapadura.nextLine());;
         
-        
-        //Processamento
-        
+        //teste
         double s = x1+x2;
         double p = x1*x2;
         double a = c/p;
